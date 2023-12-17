@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E6E5A312B22CDE100951937 /* PortalUtecApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6E5A302B22CDE100951937 /* PortalUtecApp.swift */; };
+		7E6E5A332B22CDE100951937 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6E5A322B22CDE100951937 /* ContentView.swift */; };
+		7E6E5A352B22CDEA00951937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6E5A342B22CDEA00951937 /* Assets.xcassets */; };
+		7E6E5A382B22CDEA00951937 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6E5A372B22CDEA00951937 /* Preview Assets.xcassets */; };
+		7E6E5A422B22CDEC00951937 /* PortalUtecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6E5A412B22CDEC00951937 /* PortalUtecTests.swift */; };
+		7E6E5A4C2B22CDEC00951937 /* PortalUtecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6E5A4B2B22CDEC00951937 /* PortalUtecUITests.swift */; };
+		7E6E5A4E2B22CDEC00951937 /* PortalUtecUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6E5A4D2B22CDEC00951937 /* PortalUtecUITestsLaunchTests.swift */; };
+		7E6E5A5A2B22CE4300951937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6E5A342B22CDEA00951937 /* Assets.xcassets */; };
+		7E6E5A5B2B22CE4300951937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6E5A342B22CDEA00951937 /* Assets.xcassets */; };
+		7E6E5A5D2B22CF8400951937 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E6E5A5C2B22CF8400951937 /* GoogleService-Info.plist */; };
+		7E6E5A602B22D09500951937 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7E6E5A5F2B22D09500951937 /* FirebaseAnalytics */; };
+		7E6E5A622B22D09500951937 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7E6E5A612B22D09500951937 /* FirebaseAnalyticsSwift */; };
+		7E6E5A642B22D09500951937 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7E6E5A632B22D09500951937 /* FirebaseAuth */; };
+		7E6E5A662B22D09600951937 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7E6E5A652B22D09600951937 /* FirebaseDatabase */; };
+		7E6E5A682B22D09600951937 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7E6E5A672B22D09600951937 /* FirebaseDatabaseSwift */; };
+		7E6E5A6A2B22D09600951937 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7E6E5A692B22D09600951937 /* FirebaseFirestore */; };
+		7E6E5A6C2B22D41C00951937 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6E5A6B2B22D41C00951937 /* Home.swift */; };
+		7E9B04E32B2E976400D18171 /* Pensum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04E22B2E976400D18171 /* Pensum.swift */; };
+		7E9B04E52B2E989900D18171 /* HorasSociales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04E42B2E989900D18171 /* HorasSociales.swift */; };
+		7E9B04E72B2E99A600D18171 /* Meterias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04E62B2E99A600D18171 /* Meterias.swift */; };
+		7E9B04E82B2E99A600D18171 /* Meterias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04E62B2E99A600D18171 /* Meterias.swift */; };
+		7E9B04E92B2E99A700D18171 /* Meterias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04E62B2E99A600D18171 /* Meterias.swift */; };
+		7E9B04EB2B2E9A4700D18171 /* Informativo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04EA2B2E9A4700D18171 /* Informativo.swift */; };
+		7E9B04EC2B2E9A4700D18171 /* Informativo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04EA2B2E9A4700D18171 /* Informativo.swift */; };
+		7E9B04ED2B2E9A4700D18171 /* Informativo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04EA2B2E9A4700D18171 /* Informativo.swift */; };
+		7E9B04EF2B2E9B3800D18171 /* MapaUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04EE2B2E9B3800D18171 /* MapaUtec.swift */; };
+		7E9B04F02B2E9B3800D18171 /* MapaUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04EE2B2E9B3800D18171 /* MapaUtec.swift */; };
+		7E9B04F12B2E9B3800D18171 /* MapaUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04EE2B2E9B3800D18171 /* MapaUtec.swift */; };
+		7E9B04F32B2E9C9C00D18171 /* Aranceles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04F22B2E9C9C00D18171 /* Aranceles.swift */; };
+		7E9B04F42B2E9C9C00D18171 /* Aranceles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04F22B2E9C9C00D18171 /* Aranceles.swift */; };
+		7E9B04F52B2E9C9C00D18171 /* Aranceles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04F22B2E9C9C00D18171 /* Aranceles.swift */; };
+		7E9B04F72B2E9E0600D18171 /* FormasDePago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04F62B2E9E0600D18171 /* FormasDePago.swift */; };
+		7E9B04F82B2E9E0600D18171 /* FormasDePago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04F62B2E9E0600D18171 /* FormasDePago.swift */; };
+		7E9B04F92B2E9E0600D18171 /* FormasDePago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04F62B2E9E0600D18171 /* FormasDePago.swift */; };
+		7E9B04FB2B2EA0A300D18171 /* Notas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04FA2B2EA0A300D18171 /* Notas.swift */; };
+		7E9B04FC2B2EA0A300D18171 /* Notas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04FA2B2EA0A300D18171 /* Notas.swift */; };
+		7E9B04FD2B2EA0A300D18171 /* Notas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04FA2B2EA0A300D18171 /* Notas.swift */; };
+		7E9B04FF2B2EA0CF00D18171 /* NoticiasUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04FE2B2EA0CF00D18171 /* NoticiasUtec.swift */; };
+		7E9B05002B2EA0CF00D18171 /* NoticiasUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04FE2B2EA0CF00D18171 /* NoticiasUtec.swift */; };
+		7E9B05012B2EA0CF00D18171 /* NoticiasUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B04FE2B2EA0CF00D18171 /* NoticiasUtec.swift */; };
+		7E9B05032B2EA0F600D18171 /* CarrerasUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B05022B2EA0F600D18171 /* CarrerasUtec.swift */; };
+		7E9B05042B2EA0F600D18171 /* CarrerasUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B05022B2EA0F600D18171 /* CarrerasUtec.swift */; };
+		7E9B05052B2EA0F600D18171 /* CarrerasUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B05022B2EA0F600D18171 /* CarrerasUtec.swift */; };
+		7E9B05072B2EA12000D18171 /* CalendarioUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B05062B2EA12000D18171 /* CalendarioUtec.swift */; };
+		7E9B05082B2EA12000D18171 /* CalendarioUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B05062B2EA12000D18171 /* CalendarioUtec.swift */; };
+		7E9B05092B2EA12000D18171 /* CalendarioUtec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B05062B2EA12000D18171 /* CalendarioUtec.swift */; };
+		7E9B050C2B2EA17F00D18171 /* MenuLateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B050B2B2EA17F00D18171 /* MenuLateral.swift */; };
+		7E9B050D2B2EA17F00D18171 /* MenuLateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B050B2B2EA17F00D18171 /* MenuLateral.swift */; };
+		7E9B050E2B2EA17F00D18171 /* MenuLateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9B050B2B2EA17F00D18171 /* MenuLateral.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E6E5A3E2B22CDEB00951937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6E5A252B22CDE100951937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6E5A2C2B22CDE100951937;
+			remoteInfo = PortalUtec;
+		};
+		7E6E5A482B22CDEC00951937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6E5A252B22CDE100951937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6E5A2C2B22CDE100951937;
+			remoteInfo = PortalUtec;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E6E5A2D2B22CDE100951937 /* PortalUtec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortalUtec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6E5A302B22CDE100951937 /* PortalUtecApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalUtecApp.swift; sourceTree = "<group>"; };
+		7E6E5A322B22CDE100951937 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E6E5A342B22CDEA00951937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E6E5A372B22CDEA00951937 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E6E5A3D2B22CDEB00951937 /* PortalUtecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortalUtecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6E5A412B22CDEC00951937 /* PortalUtecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalUtecTests.swift; sourceTree = "<group>"; };
+		7E6E5A472B22CDEC00951937 /* PortalUtecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortalUtecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6E5A4B2B22CDEC00951937 /* PortalUtecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalUtecUITests.swift; sourceTree = "<group>"; };
+		7E6E5A4D2B22CDEC00951937 /* PortalUtecUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalUtecUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E6E5A5C2B22CF8400951937 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E6E5A6B2B22D41C00951937 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7E9B04E22B2E976400D18171 /* Pensum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pensum.swift; sourceTree = "<group>"; };
+		7E9B04E42B2E989900D18171 /* HorasSociales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorasSociales.swift; sourceTree = "<group>"; };
+		7E9B04E62B2E99A600D18171 /* Meterias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meterias.swift; sourceTree = "<group>"; };
+		7E9B04EA2B2E9A4700D18171 /* Informativo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Informativo.swift; sourceTree = "<group>"; };
+		7E9B04EE2B2E9B3800D18171 /* MapaUtec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaUtec.swift; sourceTree = "<group>"; };
+		7E9B04F22B2E9C9C00D18171 /* Aranceles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aranceles.swift; sourceTree = "<group>"; };
+		7E9B04F62B2E9E0600D18171 /* FormasDePago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormasDePago.swift; sourceTree = "<group>"; };
+		7E9B04FA2B2EA0A300D18171 /* Notas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notas.swift; sourceTree = "<group>"; };
+		7E9B04FE2B2EA0CF00D18171 /* NoticiasUtec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiasUtec.swift; sourceTree = "<group>"; };
+		7E9B05022B2EA0F600D18171 /* CarrerasUtec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrerasUtec.swift; sourceTree = "<group>"; };
+		7E9B05062B2EA12000D18171 /* CalendarioUtec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioUtec.swift; sourceTree = "<group>"; };
+		7E9B050A2B2EA14E00D18171 /* RecuperarClave.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecuperarClave.h; sourceTree = "<group>"; };
+		7E9B050B2B2EA17F00D18171 /* MenuLateral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLateral.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E6E5A2A2B22CDE100951937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6E5A682B22D09600951937 /* FirebaseDatabaseSwift in Frameworks */,
+				7E6E5A622B22D09500951937 /* FirebaseAnalyticsSwift in Frameworks */,
+				7E6E5A642B22D09500951937 /* FirebaseAuth in Frameworks */,
+				7E6E5A662B22D09600951937 /* FirebaseDatabase in Frameworks */,
+				7E6E5A602B22D09500951937 /* FirebaseAnalytics in Frameworks */,
+				7E6E5A6A2B22D09600951937 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6E5A3A2B22CDEB00951937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6E5A442B22CDEC00951937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6E5A242B22CDE100951937 = {
+			isa = PBXGroup;
+			children = (
+				7E6E5A2F2B22CDE100951937 /* PortalUtec */,
+				7E6E5A402B22CDEC00951937 /* PortalUtecTests */,
+				7E6E5A4A2B22CDEC00951937 /* PortalUtecUITests */,
+				7E6E5A2E2B22CDE100951937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E6E5A2E2B22CDE100951937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E6E5A2D2B22CDE100951937 /* PortalUtec.app */,
+				7E6E5A3D2B22CDEB00951937 /* PortalUtecTests.xctest */,
+				7E6E5A472B22CDEC00951937 /* PortalUtecUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E6E5A2F2B22CDE100951937 /* PortalUtec */ = {
+			isa = PBXGroup;
+			children = (
+				7E6E5A302B22CDE100951937 /* PortalUtecApp.swift */,
+				7E6E5A322B22CDE100951937 /* ContentView.swift */,
+				7E6E5A5C2B22CF8400951937 /* GoogleService-Info.plist */,
+				7E6E5A342B22CDEA00951937 /* Assets.xcassets */,
+				7E6E5A362B22CDEA00951937 /* Preview Content */,
+				7E6E5A6B2B22D41C00951937 /* Home.swift */,
+				7E9B04E22B2E976400D18171 /* Pensum.swift */,
+				7E9B04E42B2E989900D18171 /* HorasSociales.swift */,
+				7E9B04E62B2E99A600D18171 /* Meterias.swift */,
+				7E9B04EA2B2E9A4700D18171 /* Informativo.swift */,
+				7E9B04EE2B2E9B3800D18171 /* MapaUtec.swift */,
+				7E9B04F22B2E9C9C00D18171 /* Aranceles.swift */,
+				7E9B04F62B2E9E0600D18171 /* FormasDePago.swift */,
+				7E9B04FA2B2EA0A300D18171 /* Notas.swift */,
+				7E9B04FE2B2EA0CF00D18171 /* NoticiasUtec.swift */,
+				7E9B05022B2EA0F600D18171 /* CarrerasUtec.swift */,
+				7E9B05062B2EA12000D18171 /* CalendarioUtec.swift */,
+				7E9B050A2B2EA14E00D18171 /* RecuperarClave.h */,
+				7E9B050B2B2EA17F00D18171 /* MenuLateral.swift */,
+			);
+			path = PortalUtec;
+			sourceTree = "<group>";
+		};
+		7E6E5A362B22CDEA00951937 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7E6E5A372B22CDEA00951937 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E6E5A402B22CDEC00951937 /* PortalUtecTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6E5A412B22CDEC00951937 /* PortalUtecTests.swift */,
+			);
+			path = PortalUtecTests;
+			sourceTree = "<group>";
+		};
+		7E6E5A4A2B22CDEC00951937 /* PortalUtecUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6E5A4B2B22CDEC00951937 /* PortalUtecUITests.swift */,
+				7E6E5A4D2B22CDEC00951937 /* PortalUtecUITestsLaunchTests.swift */,
+			);
+			path = PortalUtecUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E6E5A2C2B22CDE100951937 /* PortalUtec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6E5A512B22CDEC00951937 /* Build configuration list for PBXNativeTarget "PortalUtec" */;
+			buildPhases = (
+				7E6E5A292B22CDE100951937 /* Sources */,
+				7E6E5A2A2B22CDE100951937 /* Frameworks */,
+				7E6E5A2B2B22CDE100951937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortalUtec;
+			packageProductDependencies = (
+				7E6E5A5F2B22D09500951937 /* FirebaseAnalytics */,
+				7E6E5A612B22D09500951937 /* FirebaseAnalyticsSwift */,
+				7E6E5A632B22D09500951937 /* FirebaseAuth */,
+				7E6E5A652B22D09600951937 /* FirebaseDatabase */,
+				7E6E5A672B22D09600951937 /* FirebaseDatabaseSwift */,
+				7E6E5A692B22D09600951937 /* FirebaseFirestore */,
+			);
+			productName = PortalUtec;
+			productReference = 7E6E5A2D2B22CDE100951937 /* PortalUtec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E6E5A3C2B22CDEB00951937 /* PortalUtecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6E5A542B22CDEC00951937 /* Build configuration list for PBXNativeTarget "PortalUtecTests" */;
+			buildPhases = (
+				7E6E5A392B22CDEB00951937 /* Sources */,
+				7E6E5A3A2B22CDEB00951937 /* Frameworks */,
+				7E6E5A3B2B22CDEB00951937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6E5A3F2B22CDEB00951937 /* PBXTargetDependency */,
+			);
+			name = PortalUtecTests;
+			productName = PortalUtecTests;
+			productReference = 7E6E5A3D2B22CDEB00951937 /* PortalUtecTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E6E5A462B22CDEC00951937 /* PortalUtecUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6E5A572B22CDEC00951937 /* Build configuration list for PBXNativeTarget "PortalUtecUITests" */;
+			buildPhases = (
+				7E6E5A432B22CDEC00951937 /* Sources */,
+				7E6E5A442B22CDEC00951937 /* Frameworks */,
+				7E6E5A452B22CDEC00951937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6E5A492B22CDEC00951937 /* PBXTargetDependency */,
+			);
+			name = PortalUtecUITests;
+			productName = PortalUtecUITests;
+			productReference = 7E6E5A472B22CDEC00951937 /* PortalUtecUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E6E5A252B22CDE100951937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7E6E5A2C2B22CDE100951937 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					7E6E5A3C2B22CDEB00951937 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 7E6E5A2C2B22CDE100951937;
+					};
+					7E6E5A462B22CDEC00951937 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 7E6E5A2C2B22CDE100951937;
+					};
+				};
+			};
+			buildConfigurationList = 7E6E5A282B22CDE100951937 /* Build configuration list for PBXProject "PortalUtec" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E6E5A242B22CDE100951937;
+			packageReferences = (
+				7E6E5A5E2B22D09500951937 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 7E6E5A2E2B22CDE100951937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E6E5A2C2B22CDE100951937 /* PortalUtec */,
+				7E6E5A3C2B22CDEB00951937 /* PortalUtecTests */,
+				7E6E5A462B22CDEC00951937 /* PortalUtecUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E6E5A2B2B22CDE100951937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6E5A382B22CDEA00951937 /* Preview Assets.xcassets in Resources */,
+				7E6E5A352B22CDEA00951937 /* Assets.xcassets in Resources */,
+				7E6E5A5D2B22CF8400951937 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6E5A3B2B22CDEB00951937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6E5A5A2B22CE4300951937 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6E5A452B22CDEC00951937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6E5A5B2B22CE4300951937 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E6E5A292B22CDE100951937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9B04FF2B2EA0CF00D18171 /* NoticiasUtec.swift in Sources */,
+				7E9B04E52B2E989900D18171 /* HorasSociales.swift in Sources */,
+				7E9B04F72B2E9E0600D18171 /* FormasDePago.swift in Sources */,
+				7E9B04EF2B2E9B3800D18171 /* MapaUtec.swift in Sources */,
+				7E9B05072B2EA12000D18171 /* CalendarioUtec.swift in Sources */,
+				7E9B04EB2B2E9A4700D18171 /* Informativo.swift in Sources */,
+				7E9B05032B2EA0F600D18171 /* CarrerasUtec.swift in Sources */,
+				7E6E5A332B22CDE100951937 /* ContentView.swift in Sources */,
+				7E9B050C2B2EA17F00D18171 /* MenuLateral.swift in Sources */,
+				7E6E5A6C2B22D41C00951937 /* Home.swift in Sources */,
+				7E9B04F32B2E9C9C00D18171 /* Aranceles.swift in Sources */,
+				7E9B04FB2B2EA0A300D18171 /* Notas.swift in Sources */,
+				7E9B04E72B2E99A600D18171 /* Meterias.swift in Sources */,
+				7E6E5A312B22CDE100951937 /* PortalUtecApp.swift in Sources */,
+				7E9B04E32B2E976400D18171 /* Pensum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6E5A392B22CDEB00951937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9B05082B2EA12000D18171 /* CalendarioUtec.swift in Sources */,
+				7E9B05042B2EA0F600D18171 /* CarrerasUtec.swift in Sources */,
+				7E9B05002B2EA0CF00D18171 /* NoticiasUtec.swift in Sources */,
+				7E9B04F42B2E9C9C00D18171 /* Aranceles.swift in Sources */,
+				7E9B050D2B2EA17F00D18171 /* MenuLateral.swift in Sources */,
+				7E9B04EC2B2E9A4700D18171 /* Informativo.swift in Sources */,
+				7E9B04F02B2E9B3800D18171 /* MapaUtec.swift in Sources */,
+				7E6E5A422B22CDEC00951937 /* PortalUtecTests.swift in Sources */,
+				7E9B04E82B2E99A600D18171 /* Meterias.swift in Sources */,
+				7E9B04FC2B2EA0A300D18171 /* Notas.swift in Sources */,
+				7E9B04F82B2E9E0600D18171 /* FormasDePago.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6E5A432B22CDEC00951937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9B05012B2EA0CF00D18171 /* NoticiasUtec.swift in Sources */,
+				7E9B04E92B2E99A700D18171 /* Meterias.swift in Sources */,
+				7E9B050E2B2EA17F00D18171 /* MenuLateral.swift in Sources */,
+				7E9B04F12B2E9B3800D18171 /* MapaUtec.swift in Sources */,
+				7E9B04F92B2E9E0600D18171 /* FormasDePago.swift in Sources */,
+				7E9B04FD2B2EA0A300D18171 /* Notas.swift in Sources */,
+				7E9B05052B2EA0F600D18171 /* CarrerasUtec.swift in Sources */,
+				7E9B04F52B2E9C9C00D18171 /* Aranceles.swift in Sources */,
+				7E6E5A4C2B22CDEC00951937 /* PortalUtecUITests.swift in Sources */,
+				7E9B04ED2B2E9A4700D18171 /* Informativo.swift in Sources */,
+				7E6E5A4E2B22CDEC00951937 /* PortalUtecUITestsLaunchTests.swift in Sources */,
+				7E9B05092B2EA12000D18171 /* CalendarioUtec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E6E5A3F2B22CDEB00951937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E6E5A2C2B22CDE100951937 /* PortalUtec */;
+			targetProxy = 7E6E5A3E2B22CDEB00951937 /* PBXContainerItemProxy */;
+		};
+		7E6E5A492B22CDEC00951937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E6E5A2C2B22CDE100951937 /* PortalUtec */;
+			targetProxy = 7E6E5A482B22CDEC00951937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E6E5A4F2B22CDEC00951937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E6E5A502B22CDEC00951937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E6E5A522B22CDEC00951937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PortalUtec/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Utec.Portal.PortalUtec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E6E5A532B22CDEC00951937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PortalUtec/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Utec.Portal.PortalUtec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E6E5A552B22CDEC00951937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Utec.Portal.PortalUtecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortalUtec.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PortalUtec";
+			};
+			name = Debug;
+		};
+		7E6E5A562B22CDEC00951937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Utec.Portal.PortalUtecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortalUtec.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PortalUtec";
+			};
+			name = Release;
+		};
+		7E6E5A582B22CDEC00951937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Utec.Portal.PortalUtecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PortalUtec;
+			};
+			name = Debug;
+		};
+		7E6E5A592B22CDEC00951937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Utec.Portal.PortalUtecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PortalUtec;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E6E5A282B22CDE100951937 /* Build configuration list for PBXProject "PortalUtec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6E5A4F2B22CDEC00951937 /* Debug */,
+				7E6E5A502B22CDEC00951937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6E5A512B22CDEC00951937 /* Build configuration list for PBXNativeTarget "PortalUtec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6E5A522B22CDEC00951937 /* Debug */,
+				7E6E5A532B22CDEC00951937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6E5A542B22CDEC00951937 /* Build configuration list for PBXNativeTarget "PortalUtecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6E5A552B22CDEC00951937 /* Debug */,
+				7E6E5A562B22CDEC00951937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6E5A572B22CDEC00951937 /* Build configuration list for PBXNativeTarget "PortalUtecUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6E5A582B22CDEC00951937 /* Debug */,
+				7E6E5A592B22CDEC00951937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E6E5A5E2B22D09500951937 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E6E5A5F2B22D09500951937 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E6E5A5E2B22D09500951937 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7E6E5A612B22D09500951937 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E6E5A5E2B22D09500951937 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		7E6E5A632B22D09500951937 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E6E5A5E2B22D09500951937 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7E6E5A652B22D09600951937 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E6E5A5E2B22D09500951937 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7E6E5A672B22D09600951937 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E6E5A5E2B22D09500951937 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		7E6E5A692B22D09600951937 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E6E5A5E2B22D09500951937 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7E6E5A252B22CDE100951937 /* Project object */;
+}
